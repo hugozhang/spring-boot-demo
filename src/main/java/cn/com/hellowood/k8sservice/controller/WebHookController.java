@@ -23,7 +23,8 @@ public class WebHookController {
     private WebhookService webhookService;
 
     @PostMapping("/wechat")
-    public void wechat(@RequestParam("key") String key,@RequestBody Webhook webhook) {
+    public void wechat(@RequestParam("key") String key
+            ,@RequestBody Webhook webhook) {
         webhookService.alertToQiyeWeChat(key,webhook);
     }
 
