@@ -58,6 +58,12 @@
             <version>1.0.7-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>me.about</groupId>
+            <artifactId>easy-widget-excel</artifactId>
+            <version>1.0.7-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <!-- 打包逻辑 -->

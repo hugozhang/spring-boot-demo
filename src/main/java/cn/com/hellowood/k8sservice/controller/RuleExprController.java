@@ -2,12 +2,15 @@ package cn.com.hellowood.k8sservice.controller;
 
 
 import cn.com.hellowood.k8sservice.dto.RuleParam;
+import cn.com.hellowood.k8sservice.dto.User;
 import cn.com.hellowood.k8sservice.service.TestService;
 import io.swagger.annotations.Api;
+import lombok.extern.slf4j.Slf4j;
 import me.about.widget.BusinessRule;
 import me.about.widget.DefaultBusinessRule;
 import me.about.widget.MultiBusinessRule;
 import me.about.widget.RuleContext;
+import me.about.widget.excel.spring.support.reader.ExcelMultipart;
 import me.about.widget.spring.support.SpringContextHolder;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,6 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 @Api(tags = "规则表达式")
+@Slf4j
 @RestController
 @RequestMapping("/rule")
 public class RuleExprController {
@@ -39,4 +43,11 @@ public class RuleExprController {
         return results;
     }
 
+    @PostMapping("/upload")
+    public void upload(@ExcelMultipart(name = "file1",outputClass = User.class,handler = ExcelHandler.class) List<User> users,
+                       @ExcelMultipart(name = "file2",outputClass = User.class) List<User> users2) {
+        System.out.println(users);
+        System.out.println(users2);
+        log.info("{}", users);
+    }
 }
