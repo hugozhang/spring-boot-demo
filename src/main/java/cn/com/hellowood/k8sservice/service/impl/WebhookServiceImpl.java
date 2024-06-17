@@ -1,7 +1,7 @@
 package cn.com.hellowood.k8sservice.service.impl;
 
 import cn.com.hellowood.k8sservice.model.*;
-import cn.com.hellowood.k8sservice.service.QiyeWeChatBotService;
+import cn.com.hellowood.k8sservice.service.EnterpriseWeChatBotService;
 import cn.com.hellowood.k8sservice.service.WebhookService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +23,7 @@ public class WebhookServiceImpl implements WebhookService {
     Logger logger = LoggerFactory.getLogger(WebhookServiceImpl.class);
 
     @Resource
-    private QiyeWeChatBotService qiyeWeChatBotService;
+    private EnterpriseWeChatBotService enterpriseWeChatBotService;
 
 
     @Override
@@ -68,6 +68,6 @@ public class WebhookServiceImpl implements WebhookService {
 
         weChatMarkdown.setMarkdown(markdown);
 
-        qiyeWeChatBotService.sendToBot(key,weChatMarkdown);
+        enterpriseWeChatBotService.sendToBot(key,weChatMarkdown);
     }
 }

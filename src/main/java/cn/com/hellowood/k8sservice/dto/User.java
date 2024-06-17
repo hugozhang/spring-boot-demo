@@ -1,15 +1,21 @@
 package cn.com.hellowood.k8sservice.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import me.about.widget.excel.annotation.ExcelColumn;
 
 @Data
+@AllArgsConstructor
 public class User {
 
-    @ExcelColumn(name = "姓名")
     private String name;
 
-    @ExcelColumn(name = "年龄")
-    private Integer age;
+    private String email;
 
+    private String userId;
+
+    private String orgId;
+
+    private String id;
+
+    private String role = "ADMIN";
 }

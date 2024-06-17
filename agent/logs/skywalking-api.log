@@ -1,0 +1,355 @@
+INFO 2024-06-13 17:02:08:334 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-activemq-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:335 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-armeria-0.84.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:337 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-armeria-0.85.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:338 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-asynchttpclient-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:339 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-avro-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:341 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-canal-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:343 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-cassandra-java-driver-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:344 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-cxf-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:346 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-dubbo-2.7.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:347 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-dubbo-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:348 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-ehcache-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:350 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elastic-job-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:351 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elastic-job-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:352 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elasticsearch-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:354 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elasticsearch-6.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:355 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-feign-default-http-9.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:356 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-finagle-6.25.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:358 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-grpc-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:359 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-h2-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:361 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-hbase-1.x-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:362 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpasyncclient-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:364 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpclient-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:365 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpClient-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:367 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpclient-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:368 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-hystrix-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:369 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-influxdb-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:371 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jdbc-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:372 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jedis-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:374 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jetty-client-9.0-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:375 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jetty-client-9.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:376 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jetty-server-9.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:378 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-kafka-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:379 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-kafka-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:381 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-lettuce-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:382 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-light4j-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:383 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mariadb-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:385 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mongodb-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:386 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mongodb-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:387 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mongodb-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:389 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mssql-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:390 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mssql-jdbc-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:391 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mssql-jtds-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:393 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:394 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-6.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:395 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-8.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:396 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:397 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-netty-socketio-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:398 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-nutz-http-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:399 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-nutz-mvc-annotation-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:401 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-okhttp-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:402 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-play-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:403 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-postgresql-8.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:404 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-pulsar-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:406 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-quasar-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:407 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-rabbitmq-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:409 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-redisson-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:410 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-resttemplate-4.3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:411 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-rocketmq-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:412 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-rocketmq-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:413 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-servicecomb-java-chassis-0.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:415 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-servicecomb-java-chassis-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:416 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-jdbc-1.5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:417 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:418 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-4.1.0-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:419 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:421 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-4.x-rc3-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:422 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-shardingsphere-4.0.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:424 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-solrj-7.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:425 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-async-annotation-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:426 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-cloud-feign-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:433 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-cloud-feign-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:435 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-concurrent-util-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:436 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-core-patch-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:438 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-kafka-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:440 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-kafka-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:441 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-scheduled-annotation-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:443 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:444 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:446 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:448 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:449 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spymemcached-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:450 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-struts2-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:452 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-undertow-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:454 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-vertx-core-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:455 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-xmemcached-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:457 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-xxl-job-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:459 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\baidu-brpc-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:460 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\dbcp-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:461 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\dubbo-2.7.x-conflict-patch-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:463 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\dubbo-conflict-patch-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:464 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\graphql-12.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:466 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\graphql-8.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:467 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\graphql-9.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:468 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\motan-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:469 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\resteasy-server-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:471 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\sofa-rpc-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:473 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\spring-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:474 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\spring-webflux-5.x-webclient-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:475 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\thrift-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:477 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\tomcat-7.x-8.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:479 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-kafka-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:480 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-log4j-1.x-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:482 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-log4j-2.x-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:483 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-logback-1.x-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:485 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-logging-common-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:486 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-meter-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:488 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-opentracing-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:489 main AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-trace-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:08:519 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-activemq-5.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:520 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-armeria-0.84.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:521 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-armeria-0.85.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:521 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-asynchttpclient-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:522 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-avro-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:522 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-canal-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:523 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-cassandra-java-driver-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:524 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-cxf-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:524 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-dubbo-2.7.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:525 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-dubbo-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:525 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-ehcache-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:526 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elastic-job-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:527 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elastic-job-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:527 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elasticsearch-5.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:528 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elasticsearch-6.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:528 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-feign-default-http-9.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:529 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-finagle-6.25.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:530 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-grpc-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:530 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-h2-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:531 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-hbase-1.x-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:532 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpasyncclient-4.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:533 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpclient-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:533 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpClient-4.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:534 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-hystrix-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:535 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-influxdb-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:536 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jedis-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:537 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jetty-client-9.0-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:537 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jetty-client-9.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:538 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jetty-server-9.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:539 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-kafka-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:540 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-lettuce-5.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:540 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-light4j-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:541 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mariadb-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:542 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mongodb-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:542 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mongodb-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:543 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mongodb-4.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:544 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mssql-jdbc-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:545 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mssql-jtds-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:545 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-5.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:546 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-6.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:547 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-8.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:547 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-netty-socketio-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:548 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-nutz-http-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:549 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-nutz-mvc-annotation-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:549 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-okhttp-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:550 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-play-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:550 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-postgresql-8.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:551 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-pulsar-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:551 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-quasar-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:552 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-rabbitmq-5.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:553 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-redisson-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:554 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-resttemplate-4.3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:554 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-rocketmq-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:555 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-rocketmq-4.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:556 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-servicecomb-java-chassis-0.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:557 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-servicecomb-java-chassis-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:557 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-jdbc-1.5.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:558 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:559 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-4.1.0-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:560 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-4.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:561 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-4.x-rc3-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:561 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-shardingsphere-4.0.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:564 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-solrj-7.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:566 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-async-annotation-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:567 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-cloud-feign-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:568 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-cloud-feign-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:568 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-concurrent-util-4.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:569 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-core-patch-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:570 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-kafka-1.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:571 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-kafka-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:571 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-scheduled-annotation-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:572 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:573 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-4.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:574 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-5.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:574 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-commons-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:575 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spymemcached-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:576 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-struts2-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:576 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-undertow-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:577 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-vertx-core-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:578 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-xmemcached-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:579 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-xxl-job-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:580 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\baidu-brpc-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:580 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\dbcp-2.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:581 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\dubbo-2.7.x-conflict-patch-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:582 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\dubbo-conflict-patch-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:583 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\graphql-12.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:583 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\graphql-8.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:584 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\graphql-9.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:585 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\motan-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:585 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\resteasy-server-3.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:586 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\sofa-rpc-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:587 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\spring-webflux-5.x-webclient-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:587 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\thrift-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:588 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\plugins\tomcat-7.x-8.x-plugin-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:588 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-kafka-activation-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:589 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-log4j-1.x-activation-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:590 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-log4j-2.x-activation-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:591 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-logback-1.x-activation-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:591 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-meter-activation-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:592 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-opentracing-activation-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:08:593 main PluginResourcesResolver : find skywalking plugin define in jar:file:D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-trace-activation-8.5.0.jar!/skywalking-plugin.def 
+INFO 2024-06-13 17:02:31:448 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-activemq-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:448 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-armeria-0.84.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:449 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-armeria-0.85.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:449 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-asynchttpclient-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:449 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-avro-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:450 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-canal-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:450 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-cassandra-java-driver-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:451 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-cxf-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:452 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-dubbo-2.7.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:457 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-dubbo-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:457 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-ehcache-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:458 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elastic-job-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:459 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elastic-job-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:460 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elasticsearch-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:460 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-elasticsearch-6.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:461 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-feign-default-http-9.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:462 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-finagle-6.25.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:462 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-grpc-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:463 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-h2-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:464 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-hbase-1.x-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:464 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpasyncclient-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:465 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpclient-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:465 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpClient-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:466 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-httpclient-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:466 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-hystrix-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:467 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-influxdb-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:467 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jdbc-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:468 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jedis-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:469 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jetty-client-9.0-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:470 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jetty-client-9.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:470 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-jetty-server-9.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:471 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-kafka-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:471 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-kafka-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:472 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-lettuce-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:472 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-light4j-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:472 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mariadb-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:473 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mongodb-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:473 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mongodb-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:474 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mongodb-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:474 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mssql-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:474 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mssql-jdbc-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:475 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mssql-jtds-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:475 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:476 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-6.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:476 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-8.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:476 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-mysql-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:477 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-netty-socketio-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:477 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-nutz-http-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:478 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-nutz-mvc-annotation-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:478 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-okhttp-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:478 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-play-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:479 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-postgresql-8.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:479 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-pulsar-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:480 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-quasar-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:480 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-rabbitmq-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:480 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-redisson-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:481 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-resttemplate-4.3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:481 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-rocketmq-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:481 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-rocketmq-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:482 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-servicecomb-java-chassis-0.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:482 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-servicecomb-java-chassis-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:483 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-jdbc-1.5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:483 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:483 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-4.1.0-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:484 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:484 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-sharding-sphere-4.x-rc3-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:485 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-shardingsphere-4.0.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:485 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-solrj-7.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:486 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-async-annotation-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:487 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-cloud-feign-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:487 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-cloud-feign-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:488 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-concurrent-util-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:488 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-core-patch-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:489 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-kafka-1.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:489 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-kafka-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:490 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spring-scheduled-annotation-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:491 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:492 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-4.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:492 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-5.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:493 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-springmvc-annotation-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:494 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-spymemcached-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:495 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-struts2-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:495 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-undertow-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:496 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-vertx-core-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:497 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-xmemcached-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:504 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\apm-xxl-job-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:506 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\baidu-brpc-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:506 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\dbcp-2.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:507 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\dubbo-2.7.x-conflict-patch-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:508 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\dubbo-conflict-patch-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:508 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\graphql-12.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:508 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\graphql-8.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:509 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\graphql-9.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:509 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\motan-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:509 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\resteasy-server-3.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:510 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\sofa-rpc-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:510 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\spring-commons-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:511 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\spring-webflux-5.x-webclient-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:511 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\thrift-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:511 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\plugins\tomcat-7.x-8.x-plugin-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:512 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-kafka-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:513 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-log4j-1.x-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:513 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-log4j-2.x-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:514 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-logback-1.x-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:515 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-logging-common-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:515 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-meter-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:516 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-opentracing-activation-8.5.0.jar loaded. 
+INFO 2024-06-13 17:02:31:516 background-preinit AgentClassLoader : D:\workspace\k8s-spring-boot-demo\agent\activations\apm-toolkit-trace-activation-8.5.0.jar loaded. 
+WARN 2024-06-13 17:02:36:355 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.K8sController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:355 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.K8sController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:377 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.K8sController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:02:36:402 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.RuleExprController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:402 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.RuleExprController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:403 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.RuleExprController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:02:36:430 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.SigNozController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:430 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.SigNozController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:430 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.SigNozController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:02:36:464 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.TelemetryController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:464 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.TelemetryController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:465 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.TelemetryController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:02:36:525 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.WebHookController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:525 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.WebHookController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:36:525 main AbstractClassEnhancePluginDefine : enhance class cn.com.hellowood.k8sservice.controller.WebHookController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:02:39:970 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.oas.web.OpenApiControllerWebMvc by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:39:970 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.oas.web.OpenApiControllerWebMvc by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:39:971 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.oas.web.OpenApiControllerWebMvc by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:02:40:379 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.swagger.web.ApiResourceController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:40:379 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.swagger.web.ApiResourceController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:40:380 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.swagger.web.ApiResourceController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:02:40:484 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.swagger2.web.Swagger2ControllerWebMvc by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:40:485 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.swagger2.web.Swagger2ControllerWebMvc by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:40:485 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.swagger2.web.Swagger2ControllerWebMvc by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:02:40:957 main AbstractClassEnhancePluginDefine : enhance class org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v3.define.ControllerInstrumentation is not working. Because witness class org.springframework.web.servlet.view.xslt.AbstractXsltView is not existed. 
+WARN 2024-06-13 17:02:40:958 main AbstractClassEnhancePluginDefine : enhance class org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.ControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:40:958 main AbstractClassEnhancePluginDefine : enhance class org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.ControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:02:40:958 main AbstractClassEnhancePluginDefine : enhance class org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:03:00:636 main AbstractClassEnhancePluginDefine : enhance class org.springframework.web.method.HandlerMethod by plugin org.apache.skywalking.apm.plugin.spring.mvc.v3.define.HandlerMethodInstrumentation is not working. Because witness class org.springframework.web.servlet.view.xslt.AbstractXsltView is not existed. 
+WARN 2024-06-13 17:03:00:636 main AbstractClassEnhancePluginDefine : enhance class org.springframework.web.method.HandlerMethod by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.HandlerMethodInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:03:02:028 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.swagger2.web.Swagger2ControllerWebFlux by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:03:02:028 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.swagger2.web.Swagger2ControllerWebFlux by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:03:02:028 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.swagger2.web.Swagger2ControllerWebFlux by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:03:02:065 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.oas.web.OpenApiControllerWebFlux by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:03:02:066 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.oas.web.OpenApiControllerWebFlux by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.RestControllerForLowVersionInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 
+WARN 2024-06-13 17:03:02:066 main AbstractClassEnhancePluginDefine : enhance class springfox.documentation.oas.web.OpenApiControllerWebFlux by plugin org.apache.skywalking.apm.plugin.spring.mvc.v5.define.reactive.ReactiveRestControllerInstrumentation is not working. Because witness class org.springframework.web.reactive.result.method.InvocableHandlerMethod is not existed. 
+WARN 2024-06-13 17:03:03:913 main AbstractClassEnhancePluginDefine : enhance class org.springframework.web.method.support.InvocableHandlerMethod by plugin org.apache.skywalking.apm.plugin.spring.mvc.v3.define.InvocableHandlerInstrumentation is not working. Because witness class org.springframework.web.servlet.view.xslt.AbstractXsltView is not existed. 
+WARN 2024-06-13 17:03:03:914 main AbstractClassEnhancePluginDefine : enhance class org.springframework.web.method.support.InvocableHandlerMethod by plugin org.apache.skywalking.apm.plugin.spring.mvc.v4.define.InvocableHandlerInstrumentation is not working. Because witness class org.springframework.cache.interceptor.DefaultKeyGenerator is not existed. 

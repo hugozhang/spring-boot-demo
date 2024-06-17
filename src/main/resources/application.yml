@@ -1,5 +1,17 @@
-
 spring:
+  application:
+    name: spring-prometheus-demo
+#  management:
+#    endpoint:
+#      health:
+#        show-details: always
+#    endpoints:
+#      web:
+#        exposure:
+#          include: '*'
+#    metrics:
+#      tags:
+#        application: ${spring.application.name}
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -9,8 +21,8 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-  session:
-    store-type: redis
+#  session:
+#    store-type: redis
   servlet:
     multipart:
       enabled: true
@@ -29,7 +41,80 @@ logging:
 #    name: logs/hmap-web/hmap-web.log
 #  config: classpath:config/logback.xml
 
+zipkin:
+  storage:
+    strict-trace-id: ${STRICT_TRACE_ID:true}
+    search-enabled: ${SEARCH_ENABLED:true}
+    autocomplete-keys: ${AUTOCOMPLETE_KEYS:}
+    autocomplete-ttl: ${AUTOCOMPLETE_TTL:3600000}
+    autocomplete-cardinality: 20000
+    type: ${STORAGE_TYPE:mysql}
+    mem:
+      # Maximum number of spans to keep in memory.  When exceeded, oldest traces (and their spans) will be purged.
+      # A safe estimate is 1K of memory per span (each span with 2 annotations + 1 binary annotation), plus
+      # 100 MB for a safety buffer.  You'll need to verify in your own environment.
+      # Experimentally, it works with: max-spans of 500000 with JRE argument -Xmx600m.
+      max-spans: 500000
+    mysql:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: ${MYSQL_JDBC_URL:jdbc:mysql://192.168.90.57:3306/zipkin?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true}
+      host: ${MYSQL_HOST:192.168.90.57}
+      port: ${MYSQL_TCP_PORT:3306}
+      username: ${MYSQL_USER:root}
+      password: ${MYSQL_PASS:hmap}
+      db: ${MYSQL_DB:zipkin}
+      max-active: ${MYSQL_MAX_CONNECTIONS:10}
+      use-ssl: ${MYSQL_USE_SSL:false}
+  ui:
+    enabled: ${QUERY_ENABLED:true}
+    ## Values below here are mapped to ZipkinUiProperties, served as /config.json
+    # Default limit for Find Traces
+    query-limit: 10
+    # The value here becomes a label in the top-right corner
+    environment:
+    # Default duration to look back when finding traces.
+    # Affects the "Start time" element in the UI. 1 hour in millis
+    default-lookback: 3600000
+    # When false, disables the "find a trace" screen
+    search-enabled: ${SEARCH_ENABLED:true}
+    # Which sites this Zipkin UI covers. Regex syntax. (e.g. http:\/\/example.com\/.*)
+    # Multiple sites can be specified, e.g.
+    # - .*example1.com
+    # - .*example2.com
+    # Default is "match all websites"
+    instrumented: .*
+    # URL placed into the <base> tag in the HTML
+    base-path: /zipkin
+    # When false, disables the "Try Lens UI" button in the navigation page
+    suggest-lens: true
+
 server:
+  port: 8082
   servlet:
     session:
       timeout: 30m
+# We are using Armeria instead of Tomcat. Have it inherit the default configuration from Spring
+armeria:
+  ports:
+    - port: 9411
+      protocols:
+        - http
+  gracefulShutdownQuietPeriodMillis: -1
+  gracefulShutdownTimeoutMillis: -1
+
+info:
+  zipkin:
+    version: "2.12.9"
+
+# application.yml
+#otel:
+#  service:
+#    name: my-spring-boot-app
+#  exporter:
+#    otlp:
+#      endpoint: http://localhost:8082
+#    tracing:
+#      enabled: true
+#      endpoint: http://localhost:12800 # SkyWalking OAP Service 的 HTTP 端点
+#      metrics:
+#        enabled: true
