@@ -1,4 +1,4 @@
-//package cn.com.hellowood.k8sservice.config;
+//package cn.com.hellowood.k8sservice.zipkin.config;
 ///*
 // * Copyright 2015-2019 The OpenZipkin Authors
 // *

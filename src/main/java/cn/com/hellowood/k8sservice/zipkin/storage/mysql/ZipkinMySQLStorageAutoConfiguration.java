@@ -1,4 +1,4 @@
-package cn.com.hellowood.k8sservice.storage.mysql;
+package cn.com.hellowood.k8sservice.zipkin.storage.mysql;
 
 
 import java.util.List;

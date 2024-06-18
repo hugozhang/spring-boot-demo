@@ -1,4 +1,4 @@
-package cn.com.hellowood.k8sservice.config;
+package cn.com.hellowood.k8sservice.zipkin.config;
 
 /*
  * Copyright 2015-2019 The OpenZipkin Authors
@@ -60,7 +60,7 @@ import zipkin2.server.internal.brave.TracingStorageComponent;
 import zipkin2.storage.InMemoryStorage;
 import zipkin2.storage.StorageComponent;
 
-import static cn.com.hellowood.k8sservice.config.ZipkinUiProperties.DEFAULT_BASEPATH;
+import static cn.com.hellowood.k8sservice.zipkin.config.ZipkinUiProperties.DEFAULT_BASEPATH;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 @Configuration

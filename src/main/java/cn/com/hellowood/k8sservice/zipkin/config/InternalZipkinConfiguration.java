@@ -1,4 +1,4 @@
-package cn.com.hellowood.k8sservice.config;
+package cn.com.hellowood.k8sservice.zipkin.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

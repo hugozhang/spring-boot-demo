@@ -3,7 +3,7 @@
 //// (powered by FernFlower decompiler)
 ////
 //
-//package cn.com.hellowood.k8sservice.config;
+//package cn.com.hellowood.k8sservice.zipkin.config;
 //
 //import com.fasterxml.jackson.databind.ObjectMapper;
 //import com.linecorp.armeria.common.HttpMethod;

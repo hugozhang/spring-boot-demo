@@ -1,4 +1,4 @@
-//package cn.com.hellowood.k8sservice.sampler;
+//package cn.com.hellowood.k8sservice.zipkin.sampler;
 //
 //import io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties;
 //import io.opentelemetry.sdk.autoconfigure.spi.traces.ConfigurableSamplerProvider;
