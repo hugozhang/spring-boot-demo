@@ -2,10 +2,13 @@ package cn.com.hellowood.k8sservice.controller;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import io.opentelemetry.proto.collector.logs.v1.ExportLogsServiceRequest;
+import io.opentelemetry.proto.collector.metrics.v1.ExportMetricsServiceRequest;
 import io.opentelemetry.proto.collector.trace.v1.ExportTraceServiceRequest;
 import io.opentelemetry.proto.logs.v1.LogRecord;
 import io.opentelemetry.proto.logs.v1.ResourceLogs;
 import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
+import org.junit.experimental.theories.DataPoint;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,6 +20,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+@Slf4j
 @RestController
 @RequestMapping("/v1")
 public class TelemetryController {
@@ -25,7 +29,7 @@ public class TelemetryController {
     public ResponseEntity<String> receiveTraces(String tracesData,HttpServletRequest request) throws IOException {
         // 处理追踪数据
 //        saveDataToStorage(tracesData);
-        parseTraceData(request.getInputStream());
+//        parseTraceData(request.getInputStream());
         return ResponseEntity.ok("Traces received");
     }
 
@@ -33,14 +37,15 @@ public class TelemetryController {
     public ResponseEntity<String> receiveLogs(String logsData,HttpServletRequest request) throws IOException {
         // 处理日志数据
 //        saveDataToStorage(logsData);
-        parseLogData(request.getInputStream());
+//        parseLogData(request.getInputStream());
         return ResponseEntity.ok("Logs received");
     }
 
     @PostMapping("/metrics")
-    public ResponseEntity<String> receiveMetrics(@RequestBody String metricsData, HttpServletRequest request) throws IOException {
+    public ResponseEntity<String> receiveMetrics(String metricsData, HttpServletRequest request) throws IOException {
         // 处理度量指标数据
 //        saveDataToStorage(metricsData);
+//        parseMetrics(request.getInputStream());
         return ResponseEntity.ok("Metrics received");
     }
 
@@ -48,6 +53,53 @@ public class TelemetryController {
         // 将数据保存到MySQL、Redis或其他存储系统
 //        System.out.println("Received data: " + data);
     }
+
+
+    public static void parseMetrics(InputStream binaryData) throws IOException {
+        // 假设ExportMetricsServiceRequest是用于解析度量指标的请求类型
+        ExportMetricsServiceRequest request = ExportMetricsServiceRequest.parseFrom(binaryData);
+
+        // 遍历资源度量指标列表
+        request.getResourceMetricsList().forEach(resourceMetrics -> {
+            System.out.println("Resource: " + resourceMetrics.getResource().getAttributesList());
+
+            // 遍历作用域度量指标列表
+            resourceMetrics.getScopeMetricsList().forEach(instrumentationLibraryMetrics -> {
+                System.out.println("  Instrumentation Library: " + instrumentationLibraryMetrics.getScope().getName());
+
+                // 遍历度量指标列表
+                instrumentationLibraryMetrics.getMetricsList().forEach(metric -> {
+                    System.out.println("    Metric Name: " + metric.getName());
+
+                    // 打印度量指标的描述，如果有的话
+                    System.out.println("      Description: " + metric.getDescription());
+
+                    // 打印度量指标的单位，如果有的话
+                    System.out.println("      Unit: " + metric.getUnit());
+
+//                    // 检查度量指标类型并打印数据点
+//                    if (metric.hasGauge()) {
+//                        printDataPoints(metric.getGauge().getDataPointsList());
+//                    } else if (metric.hasSum()) {
+//                        printDataPoints(metric.getSum().getDataPointsList());
+//                    } else if (metric.hasHistogram()) {
+//                        printDataPoints(metric.getHistogram().getDataPointsList());
+//                    }
+                });
+            });
+        });
+    }
+
+    // 打印数据点列表
+//    private static void printDataPoints(List<DataPoint> dataPoints) {
+//        dataPoints.forEach(dataPoint -> {
+//            System.out.println("      Data Point:");
+//            System.out.println("        Value: " + dataPoint.getDoubleValue());
+//            // 打印其他数据点属性，如时间戳等
+//            System.out.println("        Time: " + dataPoint.getStartTimeUnixNano() + " - " + dataPoint.getEndTimeUnixNano());
+//        });
+//    }
+//}
 
 
     @SneakyThrows

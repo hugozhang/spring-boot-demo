@@ -1,17 +1,6 @@
 spring:
   application:
     name: spring-prometheus-demo
-#  management:
-#    endpoint:
-#      health:
-#        show-details: always
-#    endpoints:
-#      web:
-#        exposure:
-#          include: '*'
-#    metrics:
-#      tags:
-#        application: ${spring.application.name}
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -112,9 +101,20 @@ info:
 #    name: my-spring-boot-app
 #  exporter:
 #    otlp:
-#      endpoint: http://localhost:8082
+#      endpoint: http://localhost:9411
 #    tracing:
 #      enabled: true
 #      endpoint: http://localhost:12800 # SkyWalking OAP Service 的 HTTP 端点
 #      metrics:
 #        enabled: true
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  metrics:
+    tags:
+      application: ${spring.application.name}
