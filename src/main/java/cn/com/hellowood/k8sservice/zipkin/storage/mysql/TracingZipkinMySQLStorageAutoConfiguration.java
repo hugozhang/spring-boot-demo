@@ -28,7 +28,7 @@ import zipkin2.Endpoint;
         name = {"zipkin.storage.type"},
         havingValue = "mysql"
 )
-@Configuration
+//@Configuration
 public class TracingZipkinMySQLStorageAutoConfiguration extends DefaultExecuteListener {
     @Autowired
     ZipkinMySQLStorageProperties mysql;

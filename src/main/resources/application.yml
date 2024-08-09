@@ -1,120 +1,153 @@
-spring:
-  application:
-    name: spring-prometheus-demo
-  jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
-  main:
-    allow-circular-references: true
-    allow-bean-definition-overriding: true
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
-#  session:
-#    store-type: redis
-  servlet:
-    multipart:
-      enabled: true
-      max-file-size: 100MB
-      max-request-size: 100MB
-  web:
-    resources:
-      static-locations: file:static
-logging:
-  level:
-    root: INFO
-    org.springframework.web: INFO
-    org.springframework.security: INFO
-    org.springframework.security.oauth2: INFO
-#  file:
-#    name: logs/hmap-web/hmap-web.log
-#  config: classpath:config/logback.xml
+#  <<
+#  Davinci
+#  ==
+#  Copyright (C) 2016 - 2019 EDP
+#  ==
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+#        http://www.apache.org/licenses/LICENSE-2.0
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+#  >>
 
-zipkin:
-  storage:
-    strict-trace-id: ${STRICT_TRACE_ID:true}
-    search-enabled: ${SEARCH_ENABLED:true}
-    autocomplete-keys: ${AUTOCOMPLETE_KEYS:}
-    autocomplete-ttl: ${AUTOCOMPLETE_TTL:3600000}
-    autocomplete-cardinality: 20000
-    type: ${STORAGE_TYPE:mysql}
-    mem:
-      # Maximum number of spans to keep in memory.  When exceeded, oldest traces (and their spans) will be purged.
-      # A safe estimate is 1K of memory per span (each span with 2 annotations + 1 binary annotation), plus
-      # 100 MB for a safety buffer.  You'll need to verify in your own environment.
-      # Experimentally, it works with: max-spans of 500000 with JRE argument -Xmx600m.
-      max-spans: 500000
-    mysql:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: ${MYSQL_JDBC_URL:jdbc:mysql://192.168.90.57:3306/zipkin?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true}
-      host: ${MYSQL_HOST:192.168.90.57}
-      port: ${MYSQL_TCP_PORT:3306}
-      username: ${MYSQL_USER:root}
-      password: ${MYSQL_PASS:hmap}
-      db: ${MYSQL_DB:zipkin}
-      max-active: ${MYSQL_MAX_CONNECTIONS:10}
-      use-ssl: ${MYSQL_USE_SSL:false}
-  ui:
-    enabled: ${QUERY_ENABLED:true}
-    ## Values below here are mapped to ZipkinUiProperties, served as /config.json
-    # Default limit for Find Traces
-    query-limit: 10
-    # The value here becomes a label in the top-right corner
-    environment:
-    # Default duration to look back when finding traces.
-    # Affects the "Start time" element in the UI. 1 hour in millis
-    default-lookback: 3600000
-    # When false, disables the "find a trace" screen
-    search-enabled: ${SEARCH_ENABLED:true}
-    # Which sites this Zipkin UI covers. Regex syntax. (e.g. http:\/\/example.com\/.*)
-    # Multiple sites can be specified, e.g.
-    # - .*example1.com
-    # - .*example2.com
-    # Default is "match all websites"
-    instrumented: .*
-    # URL placed into the <base> tag in the HTML
-    base-path: /zipkin
-    # When false, disables the "Try Lens UI" button in the navigation page
-    suggest-lens: true
+version : 1.4.1
 
 server:
-  port: 8082
+  protocol: http
+#  address: 10.106.192.17
+  port: 9005
   servlet:
-    session:
-      timeout: 30m
-# We are using Armeria instead of Tomcat. Have it inherit the default configuration from Spring
-armeria:
-  ports:
-    - port: 9411
-      protocols:
-        - http
-  gracefulShutdownQuietPeriodMillis: -1
-  gracefulShutdownTimeoutMillis: -1
+    context-path: /
 
-info:
-  zipkin:
-    version: "2.12.9"
+spring:
+  ## davinci datasource config
 
-# application.yml
-#otel:
-#  service:
-#    name: my-spring-boot-app
-#  exporter:
-#    otlp:
-#      endpoint: http://localhost:9411
-#    tracing:
-#      enabled: true
-#      endpoint: http://localhost:12800 # SkyWalking OAP Service 的 HTTP 端点
-#      metrics:
-#        enabled: true
-management:
-  endpoint:
-    health:
-      show-details: always
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  metrics:
-    tags:
-      application: ${spring.application.name}
+  #    MYSQL 8
+  #    driver-class-name: com.mysql.cj.jdbc.Driver
+  #    url: jdbc:mysql://192.168.1.125:3306/davinci_dev?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+  #    username: root
+  #    password: UwQIdNKu
+
+  #    MYSQL 5.7
+  #    driver-class-name: com.mysql.jdbc.Driver
+  #    url: jdbc:mysql://192.168.5.131:3306/ysj_davinci?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+  #    username: ysj_davinci
+  #    password: ysj_davinci1619
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/naptune?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    initial-size: 1
+    min-idle: 1
+    max-wait: 30000
+    max-active: 10
+    break-after-acquire-failure: true
+    connection-error-retry-attempts: 1
+    time-between-eviction-runs-millis: 2000
+    min-evictable-idle-time-millis: 600000
+    max-evictable-idle-time-millis: 900000
+    time-between-connect-error-millis: 60000
+    test-while-idle: true
+    test-on-borrow: false
+    test-on-return: false
+    validation-query: select 1
+    validation-query-timeout: 10
+    keep-alive: false
+    filters: stat
+
+  ## redis config
+  ## please choose either of the two ways
+  redis:
+    isEnable: false
+
+    ## standalone config
+    host: 127.0.0.1
+    port: 6379
+
+    ## cluster config
+    #  cluster:
+    #       nodes:
+
+    password:
+    database: 0
+    timeout: 1000
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 1
+        max-idle: 8
+        min-idle: 0
+
+  ## mail is one of the important configuration of the application
+  ## mail config cannot be null or empty
+  ## some mailboxes need to be set separately password for the SMTP service)
+  mail:
+    host: smtp.126.com
+    port: 25
+    username: davincibi@126.com
+    fromAddress:
+    password: JBAWPKJDABMFGDHX
+    nickname: Davinci
+    properties:
+      smtp:
+        starttls:
+          enable: true
+          required: true
+        auth: true
+      mail:
+        smtp:
+          ssl:
+            enable: false
+  ldap:
+    urls:
+    username:
+    password:
+    base:
+    domainName:    # domainName 指 企业邮箱后缀，如企业邮箱为：xxx@example.com，这里值为 '@example.com'
+
+  security:
+    oauth2:
+      enable: false
+#      client:
+#        registration:
+#          cas:
+#            provider: cas
+#            client-id: "xxxxx"
+#            client-name: "Sign in with XXX"
+#            client-secret: "xxxxx"
+#            authorization-grant-type: authorization_code
+#            client-authentication-method: post
+#            redirect-uri-template: "{baseUrl}/login/oauth2/code/{registrationId}"
+#            scope: userinfo
+#        provider:
+#          cas:
+#            authorization-uri: https://cas.xxxxx.cn/cas/oauth2.0/authorize
+#            token-uri: https://cas.xxxxx.cn/cas/oauth2.0/accessToken
+#            user-info-uri: https://cas.xxxxx.cn/cas/oauth2.0/profile
+#            user-name-attribute: id
+#            userMapping:
+#              email: "attributes.Email"
+#              name: "attributes.CnName1"
+#              avatar: "attributes.Avatar"
+
+share:
+  auth-flag : 1
+
+## jwt is one of the important configuration of the application
+## jwt config cannot be null or empty
+jwtToken:
+  secret: secret
+  timeout: 1800000
+  algorithm: HS512
+
+## your datasource config
+source:
+  enable-query-log: false
+  result-limit: 1000000

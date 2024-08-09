@@ -23,7 +23,7 @@ import org.springframework.util.StringUtils;
 
 @ConfigurationProperties(value = "zipkin.ui")
 @EnableConfigurationProperties(ZipkinUiProperties.class)
-@Configuration
+//@Configuration
 @Primary
 public class ZipkinUiProperties {
     // TODO: this isn't honored in lens https://github.com/openzipkin/zipkin/issues/2519

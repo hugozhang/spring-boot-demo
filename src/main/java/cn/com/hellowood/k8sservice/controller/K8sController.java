@@ -18,7 +18,7 @@ import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j
-@RestController
+//@RestController
 @RequestMapping("/")
 public class K8sController {
 

@@ -16,7 +16,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import zipkin2.storage.StorageComponent;
 import zipkin2.storage.mysql.v1.MySQLStorage;
 
-@Configuration
+//@Configuration
 @ConditionalOnProperty(
         name = {"zipkin.storage.type"},
         havingValue = "mysql"

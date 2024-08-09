@@ -211,6 +211,12 @@
             <version>1.0.7-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>me.about</groupId>
+            <artifactId>easy-widget-taskflow</artifactId>
+            <version>1.0.8-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <!-- 打包逻辑 -->

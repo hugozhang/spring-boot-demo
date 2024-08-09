@@ -13,7 +13,7 @@ import org.springframework.util.StringUtils;
 
 @Getter
 @EnableConfigurationProperties
-@Configuration
+//@Configuration
 @ConfigurationProperties("zipkin.storage.mysql")
 public class ZipkinMySQLStorageProperties implements Serializable {
     private static final long serialVersionUID = 0L;

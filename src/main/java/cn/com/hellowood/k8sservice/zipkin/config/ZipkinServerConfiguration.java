@@ -63,7 +63,7 @@ import zipkin2.storage.StorageComponent;
 import static cn.com.hellowood.k8sservice.zipkin.config.ZipkinUiProperties.DEFAULT_BASEPATH;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
-@Configuration
+//@Configuration
 @ImportAutoConfiguration(ArmeriaSpringActuatorAutoConfiguration.class)
 public class ZipkinServerConfiguration implements WebMvcConfigurer {
 
