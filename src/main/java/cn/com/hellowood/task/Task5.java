@@ -1,17 +1,16 @@
 package cn.com.hellowood.task;
 
-import lombok.SneakyThrows;
+import me.about.widget.jobflow.annotation.JobFlow;
 import me.about.widget.jobflow.core.Task;
 import org.springframework.stereotype.Service;
 
 
 @Service
-public class TaskC implements Task {
-    @SneakyThrows
+@JobFlow(id = "AAA")
+public class Task5 implements Task {
     @Override
     public void execute() {
-        Thread.sleep(3000);
-        System.out.println("TaskC execute");
+        System.out.println("Task5 execute");
     }
 
 }

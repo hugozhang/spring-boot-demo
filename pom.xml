@@ -214,7 +214,7 @@
 
         <dependency>
             <groupId>me.about</groupId>
-            <artifactId>easy-widget-taskflow</artifactId>
+            <artifactId>easy-widget-jobflow</artifactId>
             <version>1.0.8-SNAPSHOT</version>
         </dependency>
 

@@ -1,10 +1,9 @@
 package cn.com.hellowood.k8sservice.controller;
 
 
-import me.about.widget.taskflow.spring.JobFlowExecutor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import me.about.widget.jobflow.engine.JobFlowEngine;
+import me.about.widget.jobflow.entity.JobFlowDef;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -13,10 +12,29 @@ import javax.annotation.Resource;
 public class JobFlowController {
 
     @Resource
-    private JobFlowExecutor jobFlowExecutor;
+    private JobFlowEngine jobFlowEngine;
+
+
+    @PostMapping("/test2")
+    public void get2(@RequestBody JobFlowDef jobFlowDef) {
+//        String jobFlow  = "{}";
+
+//        JobFlowDef jobFlowDef = JSON.parseObject(jobFlow, JobFlowDef.class);
+
+        jobFlowEngine.registerJobFlow(jobFlowDef);
+        jobFlowEngine.executeJobFlow(jobFlowDef);
+    }
 
     @GetMapping("/test")
     public void get() {
-        jobFlowExecutor.executeJobFlow("AAA");
+        jobFlowEngine.executeJobFlow("AAA");
+    }
+
+    @GetMapping("/test3")
+    public void get3(String expr) {
+        JobFlowDef jobFlowDef = jobFlowEngine.parseJobFlow(expr);
+        jobFlowEngine.registerJobFlow(jobFlowDef);
+        jobFlowEngine.executeJobFlow(jobFlowDef);
+
     }
 }
