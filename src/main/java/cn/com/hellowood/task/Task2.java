@@ -14,6 +14,6 @@ public class Task2 implements Task {
     @Override
     public void execute() {
         System.out.println("Task2 execute");
-        throw new RuntimeException("Task2 execute error");
+//        throw new RuntimeException("Task2 execute error");
     }
 }
