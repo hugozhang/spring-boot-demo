@@ -12,7 +12,7 @@ public class Huiwen {
         List<String> ans = new ArrayList<String>();
         int n;
 
-        public List<List<String>> partition(String s) {
+        public void partition(String s) {
             n = s.length();
             f = new boolean[n][n];
             for (int i = 0; i < n; ++i) {
@@ -26,7 +26,6 @@ public class Huiwen {
             }
 
             dfs(s, 0);
-            return ret;
         }
 
         public void dfs(String s, int i) {
